@@ -82,12 +82,12 @@ DATABASES = {
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
       'default': {
-           'ENGINE': 'django.db.backends.mysql',  # Usar el backend de MySQL
-           'NAME': 'hola',          # Nombre de tu base de datos
-           'USER': 'root',                    # Usuario de MySQL
-           'PASSWORD': '230904',             # Contraseña del usuario
-           'HOST': 'localhost',                  # Host del servidor (por defecto es localhost)
-           'PORT': '3306',                       # Puerto de MySQL (por defecto es 3306)
+           'ENGINE': 'django.db.backends.mysql',
+           'NAME': 'service',
+           'USER': 'root',
+           'PASSWORD': '230904',
+           'HOST': 'localhost',
+           'PORT': '3306',
            'OPTIONS': {
                'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
       }
